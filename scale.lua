@@ -4,7 +4,7 @@ function ScaleR15(p, scale)
     local plr = game:GetService("Players"):WaitForChild(p)
     local Character = plr.Character
     local Humanoid = Character:FindFirstChildWhichIsA("Humanoid")
-    local values {
+    local values = {
         headScale=Humanoid.HeadScale;
         bodyWidth = Humanoid.BodyWidthScale;
         bodyHeight = Humanoid.BodyHeightScale; 
